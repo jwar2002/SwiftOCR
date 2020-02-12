@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftOCR"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "OCR engine written in swift"
 
   # This description is used to generate tags and improve search results.
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.dependency  = "GPUImage"
+  s.dependency  "GPUImage"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
